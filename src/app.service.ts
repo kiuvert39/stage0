@@ -4,9 +4,9 @@ import { Injectable } from '@nestjs/common';
 export class AppService {
   getTaskInfo(): any {
     return {
-      email: 'kliuvertegbe2gmail.com',
+      email: 'kliuvertegbe@gmail.com',
       current_datetime: new Date().toISOString(),
-      github_url: 'https://github.com/yourusername/your-repo',
+      github_url: 'https://github.com/kiuvert39/stage0',
     };
   }
 }
